@@ -19,7 +19,7 @@ Before beginning, collect the following from the user. Mark any already known fr
 | # | Parameter | Required | Description |
 |---|-----------|----------|-------------|
 | 1 | `research_document_path` | Yes | Path to the Workflow 01 research document (e.g., `curriculum/01_research_[slug].md`) |
-| 2 | `target_lesson_duration` | Yes | Target video length range per lesson (e.g., "10–15 minutes", "5–20 minutes"). This constrains how much content fits in one lesson. |
+| 2 | `target_lesson_duration` | No | Target video length range per lesson (e.g., "10–15 minutes", "5–20 minutes"). This constrains how much content fits in one lesson. |
 | 3 | `lesson_count_target` | No | Approximate total number of lessons desired. If provided, use it to calibrate how much to split or consolidate. If not provided, let content dictate. |
 | 4 | `module_adjustments` | No | Any modules from the proposed structure the user wants to add, remove, merge, or reorder before the outline begins |
 | 5 | `pacing_notes` | No | Any pacing preferences (e.g., "keep early modules short to reduce friction," "labs every 2–3 lessons") |
